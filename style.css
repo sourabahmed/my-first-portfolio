@@ -7,7 +7,7 @@ body{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     text-align: justify;
 }
 .bio{
@@ -41,9 +41,48 @@ h1{
     display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     background-position: right;
     text-align: justify;
     padding: 2%;
     margin-bottom: 100px;
+}
+
+.last{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.full{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    box-shadow: 10px 10px 40px grey;
+    padding: 0 10px 0 10px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border-left: 5px solid black;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+.baby{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    box-shadow: 10px 10px 40px grey;
+    padding: 0 10px 0 10px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border-left: 5px solid black;
+    border-image: linear-gradient(rgb(0, 4, 236), rgb(2, 226, 255));
+    border-image-slice: 1;
+}
+.last h1{
+    font-size: 30px;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 50px;
 }
